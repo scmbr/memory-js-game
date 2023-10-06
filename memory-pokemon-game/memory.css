@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/df/4e/8b/df4e8ba28f912bf9cdf9fa0dfc196411.png");
+    background-size: 80%;
+    font-family: monospace;
+} 
+.container{
+    width: 600px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.685);
+}
+h3{
+    text-align: center;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 245px;
+    padding: 10px 17px;
+    font-family: monospace;
+    background-color: white;
+}
+p{
+  margin-left: 10px;
+}
+
+.gameGrid{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 448px;
+    width: 448px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.gameGrid img{
+    border: 1px solid black;
+    width: 110px;
+    height: 110px;
+}
